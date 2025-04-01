@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AI-Powered Smart Meeting Minutes Generator</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <style>
+      /* Global Styles */
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+        color: #555;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 15px 32px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2em;
+        }
+        p {
+          font-size: 1em;
+        }
+        button {
+          padding: 12px 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>AI-Powered Smart Meeting Minutes Generator</h1>
+      <p>
+        Click the button to generate the minutes of your meeting. This
+        application uses advanced AI to summarize your meeting and provide
+        you with accurate notes.
+      </p>
+      <button id="generateMinutesButton">Generate Meeting Minutes</button>
+    </div>
+
+    <script>
+      // Button click event
+      document.getElementById('generateMinutesButton').addEventListener('click', function () {
+        alert('Meeting minutes will be generated!');
+        // Here, you would add logic to send an API request to the backend
+      });
+    </script>
+  </body>
+</html>
