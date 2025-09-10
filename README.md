@@ -92,7 +92,7 @@ The frontend should now be running at `http://localhost:3000`.
 - **Request**: Meeting minutes text.
 - **Response**: Summarized meeting minutes.
 
-## Contributing
+## Contributing:-
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
